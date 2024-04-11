@@ -1,0 +1,18 @@
+*{
+    font-family: monospace, arial, sans-serif;
+    color: rgb(161, 81, 81);
+  
+}
+html {
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(174, 253, 233), white);
+    font-size: 14px;
+}
+div {
+    width: 500px;
+    word-wrap: break-word;
+}
+
+
+
+
