@@ -7,12 +7,25 @@ html {
     height: 100%;
     background: linear-gradient(to bottom, rgb(174, 253, 233), white);
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
-div {
+.description {
     width: 500px;
     word-wrap: break-word;
+} 
+
+.Parentimg {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
+.leftimg
+.rightimg {
+    flex: 1;
+}
 
+.centerimg {
 
-
+}
