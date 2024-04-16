@@ -22,13 +22,13 @@ html {
 display: flex;
 flex-direction: row;
 justify-content: center;
+gap: 80px;
+flex: 1;
+text-align: center;
+
 }
 
 .leftimg
-.rightimg {
-    flex: 1;
-}
-
+.rightimg 
 .centerimg {
-    margin: 0 80px;
 }
