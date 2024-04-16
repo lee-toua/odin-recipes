@@ -25,10 +25,6 @@ justify-content: center;
 gap: 80px;
 flex: 1;
 text-align: center;
-
-}
-
-.leftimg
-.rightimg 
-.centerimg {
+margin: 20px auto;
+padding: 80px ; background-color: rgba(255, 0, 200, 0.15);
 }
