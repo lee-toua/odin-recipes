@@ -18,13 +18,29 @@ html {
     text-align: center;
 }
 
-.Parentimg {
+.parentimg {
 display: flex;
-flex-direction: row;
 justify-content: center;
 gap: 80px;
 flex: 1;
 text-align: center;
-margin: 20px auto;
-padding: 80px ; background-color: rgba(255, 0, 200, 0.15);
+margin: 60px auto ;
+padding: 50px ; background-color: rgba(255, 0, 200, 0.15);
+border-radius: 10px;
+}
+
+.recipeimg {
+    display: inline-block;
+    padding: 30px 30px 30px 30px; background-color: rgba(255, 0, 200, 0.15);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.intro{
+    margin: 0 0 20px 3em;
+}
+
+.border {
+    border: 2px solid rgba(255, 0, 200, 0.15) ; background-color: white;
+    border-radius: 10px;
 }
