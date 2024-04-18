@@ -20,6 +20,7 @@ html {
 
 .parentimg {
     display: flex;
+    /* flex-wrap: wrap; allows to wrap but messes with alignment*/ 
     justify-content: center;
     text-align: center;
     margin: 60px 5% ;
@@ -33,7 +34,7 @@ html {
 }
 
 img {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     max-width: 100%;
     height: auto;
 
@@ -41,7 +42,7 @@ img {
 
 .recipeimg {
     display: flex;
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     width: 400px;
     padding: 30px 30px 30px 30px; background-color: rgba(255, 0, 200, 0.15);
     border-radius: 10px;
